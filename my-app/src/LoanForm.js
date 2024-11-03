@@ -26,9 +26,9 @@ export default function LoanForm() {
   }
 
   const btnIsDisabled =
-    loanInputs.name == "" ||
-    loanInputs.age == "" ||
-    loanInputs.phoneNumber == "";
+    loanInputs.name === "" ||
+    loanInputs.age === "" ||
+    loanInputs.phoneNumber === "";
 
   function handleDivClick() {
     console.log("div clicked");
